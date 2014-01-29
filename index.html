@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <script src="finance.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        
+ <!--  <form id='finance'>
+       Compute FV<br>
+PV:<input type="number" name="PV" value=""><br>
+I/Y:<input type="number" name="Interest" value=""><br>
+N : <input type="number" name="N" value=""><br>
+<input type="submit" value="Submit" onclick="computeFV(finance.PV.value,finance.Interest.value,finance.N.value)">
+PV: <textarea rows="1" cols="10" id="FV" >
+</textarea>
+</form> -->
+ Compute FV
+ <form>
+PV: <textarea rows="1" cols="10" id="PV" >
+</textarea>
+I/Y: <textarea rows="1" cols="10" id="interest" >
+</textarea>
+N: <textarea rows="1" cols="10" id="n" >
+</textarea>
+FV: <textarea rows="1" cols="10" id="FV"  >
+</textarea>
+<input type="button" onclick="computeFV(PV.value,interest.value,n.value)" value="Compute FV">
+ </form>
+  
+ 
+    </body>
+</html>
