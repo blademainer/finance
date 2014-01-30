@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Finance</title>
         <script src="finance.js"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
@@ -30,11 +30,12 @@ I/Y: <textarea rows="1" cols="10" id="interest" >
 </textarea>
 N: <textarea rows="1" cols="10" id="n" >
 </textarea>
-FV: <textarea rows="1" cols="10" id="FV"  >
+FV: <textarea rows="1" cols="10" id="FV"  onclick="init()">
 </textarea>
 <input type="button" onclick="computeFV(PV.value,interest.value,n.value)" value="Compute FV">
  </form>
   
+ <img src="pics/ram.jpg" alt="the">
  
     </body>
 </html>
